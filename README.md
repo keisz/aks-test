@@ -27,9 +27,9 @@ WordpressとMysqlをデプロイして動作することを確認します。
 - Podの確認  
   `kubectl get pod`
 
-- Podが動いていないときの確認
-  `kubectl describe pod pod_name`
-  `kubectl logs pod_name`
+- Podが動いていないときの確認  
+  `kubectl describe pod pod_name`      
+  `kubectl logs pod_name`  
 
 
 
