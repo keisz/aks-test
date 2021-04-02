@@ -15,7 +15,7 @@ WordpressとMysqlをデプロイして動作することを確認します。
 
 
 ### コマンド  
-- サービスの確認
+- サービスの確認  
   `kubectl get svc`
 
 - ストレージクラスの確認  
@@ -27,7 +27,9 @@ WordpressとMysqlをデプロイして動作することを確認します。
 - Podの確認  
   `kubectl get pod`
 
-
+- Podが動いていないときの確認
+  `kubectl describe pod pod_name`
+  `kubectl logs pod_name`
 
 
 
